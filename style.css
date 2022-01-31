@@ -1,0 +1,148 @@
+.header {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    justify-content: space-between;
+    padding-right: 25px;
+}
+
+.header .logo {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: 25px;
+    gap: 15px;
+    justify-content: flex-end;
+   
+   
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hright {
+    display: flex;
+    justify-items: flex-end;
+}
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.heroleft {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-items: center;
+    width: 500px;
+}
+
+.button {
+    width: 25%;
+    height: 35px;
+    font-size: large;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 5px;
+}
+
+.herohead {
+    font-family: 'Lato', sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+    color: white;
+}   
+
+.infohead{
+    font-family: 'Lato', sans-serif;
+    color: #df1028;
+    font-size: 36px;
+    font-weight: bolder;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    display: flex;
+    justify-content: center;
+}
+
+.infomain {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
+  
+}
+
+.pic {
+    width: 200px;
+}
+
+.quote {
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    background-color: #e5e7eb;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+
+}
+
+.call {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    font-family: 'Lato', sans-serif;
+    color: #f9faf8;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.pbold {
+    font-size: 25px;
+ 
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    padding-left: 100px;
+}
+
+.psmall {
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-left: 100px;
+}
+
+
+.callbut {
+    font-family: 'Lato', sans-serif;
+    margin-top: 28px;
+    background-color: #3882f6;
+    color: antiquewhite;
+    font-size: 24px;   
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    justify-content: center;
+}
