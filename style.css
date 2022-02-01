@@ -15,6 +15,7 @@ html, body {
     font-size: 25px;
     font-weight: 900;
     margin-left: 50px;
+    margin-top: 25px;
 }
 
 ul {
@@ -89,7 +90,7 @@ a {
     justify-content: space-around;
     font-family: 'Lato', sans-serif;
     padding-bottom: 150px;
-    padding-left: 100px;
+    padding-left: 20px;
     padding-right: 100px;
   
 }
@@ -118,9 +119,9 @@ a {
     background-color: #3882f6;
     font-family: 'Lato', sans-serif;
     color: #f9faf8;
-    margin-left: 100px;
+    margin-left: 450px;
     margin-top: 100px;
-    margin-right: 100px;
+    margin-right: 450px;
     margin-bottom: 100px;
 }
 
@@ -143,7 +144,9 @@ a {
     font-family: 'Lato', sans-serif;
     margin-top: 28px;
     background-color: #3882f6;
-    color: antiquewhite;
+    color: #293f50;
+    border-color: #e5e7eb;
+    
     font-size: 24px;   
     width: 150px;
     height: 35px;
@@ -155,4 +158,8 @@ footer {
     background-color: #1f2937;
     color: #e5e7eb;
     justify-content: center;
+}
+
+img {
+    border: solid 10px #293f50;
 }
